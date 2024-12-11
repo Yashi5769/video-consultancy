@@ -1,0 +1,43 @@
+body {
+     background: linear-gradient(to right,#59A8DE ,#5ED1C2);
+}
+.div1 {
+    border: 30px solid #ececec ;
+    margin: auto;
+    margin-top: 47px;
+    border-radius: 10px;
+    background-color: white;
+    width: 40%;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 30px 0 rgba(0,0,0,0.2);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(112, 112, 112);
+    line-height: 180%;
+    margin-top: 200px;
+  }
+
+button {
+    border-radius: 40px;
+    height: 70px;
+    width: 400px;
+    border: none;
+    background-image: gray;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-stretch: 20px;
+    font-weight: 600;
+    color: rgb(112, 112, 112);
+    transition-duration: 0.4s;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 10px 0 rgba(0,0,0,0);
+    align-content: center;
+    margin-left: 505px;
+    margin-top: 30px;
+}
+button:hover {
+    background-image:white;
+    color:rgb(204, 204, 204);
+}
