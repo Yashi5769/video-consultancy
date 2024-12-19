@@ -1,4 +1,5 @@
 This is a simple app that uses :
+
 HTML,CSS,JS,BOOTSTRAP for the front-end & SQL, PHP for the backend.
 
 HTML,CSS and Bootstrap is used for the basic framework of the page as well as for styling the forms which take in information as well as the tables which display the stored data.
@@ -21,7 +22,8 @@ Backend:
  
 	•	SQL: Storing and retrieving patient and appointment data.
 
- video-consultancy/
+
+video-consultancy/
  
 ├── appointment_form.css      # Styles for the appointment booking form
 
