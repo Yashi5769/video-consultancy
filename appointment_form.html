@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel = "stylesheet" href = "appointment_form.css">
+        <title>Doctor appointment form</title>
+    </head>
+    <body>
+        <form action="insert.php" method="POST">
+            <div id = "container">
+            <p>Appointment Form</p>
+            <label for = "dname">Name</label><br>
+            <input type = "text" id = "dname" name="dname" required><br><br>
+
+            <label for = "did">ID</label><br>
+            <input type = "number" id = "did" name="did" min = "1000000000" max = "9999999999" required><br><br>
+
+           <label for = "spl">Area of specialisation</label><br>
+            <select name = "spl" id = "spl" required>
+                <option value = "pediatrics">pediatrics</option>
+                <option value = "gynaecology">gynaecology</option>
+                <option value = "psychiatry">psychiatry</option>
+                <option value = "dermatology">dermatology</option>
+                <option value = "physician">physician</option>
+            </select><br><br>
+
+            <label for = "day">Date</label><br>
+            <input type = "date" id = "day" name="day" required><br><br>
+
+            <label for = "dtime">Time</label><br>
+            <input type = "time" id = "dtime" name="dtime" required><br><br><br>
+
+
+            <button type = "submit" class="btn">Confirm Slot</button>
+            </div>
+
+        </form>
+    </body>
+</html>
