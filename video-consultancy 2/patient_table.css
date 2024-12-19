@@ -1,0 +1,74 @@
+
+table, th, td, tr {
+    border: none;
+    line-height: 25px;
+    align-items: center;
+    padding: 5px;
+    background-color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+table {
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 30px 0 rgba(0,0,0,0.2);
+    width: 50%;
+    align-items: center;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 150%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    color: rgb(112, 112, 112);
+    background-color: #ececec;
+
+}
+body {
+    background: linear-gradient(to right,#59A8DE ,#5ED1C2);
+
+}
+
+
+.btn {
+    border-radius: 40px;
+    height: 70px;
+    width: 400px;
+    border: none;
+    background-image: linear-gradient(to right,#59A8DE ,#5ED1C2);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-stretch: 20px;
+    color: white;
+    transition-duration: 0.4s;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 10px 0 rgba(0,0,0,0);
+}
+.btn:hover {
+    background-image:white;
+    color:rgb(161, 161, 161);
+}
+#container {
+    padding: 270px;
+    text-align: center;
+}
+
+.rad input:checked ~ .checkmark {
+    color: #4d4d4d;
+  }
+
+  .rad input:checked ~ .checkmark:after {
+    display: block;
+  }
+  .rad {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+  }
