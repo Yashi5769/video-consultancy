@@ -58,17 +58,11 @@ git clone [https://github.com/Yashi5769/video-consultancy.git](https://github.co
 cd video-consultancy
 ```
 
-2. **Install Server Dependencies** Navigate to the root (or server) directory and install dependencies.
+**2. Install Server Dependencies** Navigate to the root (or server) directory and install dependencies.
    ```bash
    cd server
    npm install
    ```
-
-   ---
-
-### 2. Environment Variables
-
-```markdown
 ## 🔐 Environment Variables
 
 You need to set up environment variables for the application to run correctly.
@@ -80,24 +74,3 @@ PORT=5000
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret_key
 CLIENT_URL=http://localhost:3000
-```
-
-### 3. Running the App
-
-```markdown
-## 🏃‍♂️ Running the App
-
-1. **Start the Backend Server**
-   ```bash
-   cd server
-   npm start
-   # Server runs on http://localhost:5000
-   ```
-   ### 4. Screenshots Section (Using a Table)
-
-```markdown
-## 📸 Screenshots
-
-| Landing Page | Video Call Interface |
-|:---:|:---:|
-| ![Landing Page](PLACEHOLDER_URL_HERE) | ![Video Call Interface](PLACEHOLDER_URL_HERE) |
