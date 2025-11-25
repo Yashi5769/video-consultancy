@@ -67,10 +67,12 @@ cd video-consultancy
 
 You need to set up environment variables for the application to run correctly.
 
-**1. Server-side (`/server/.env`):** Create a `.env` file in the `server` folder and add the following:
+**Server-side (`/server/.env`):** Create a `.env` file in the `server` folder and add the following:
 
 ```env
 PORT=5000
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret_key
 CLIENT_URL=http://localhost:3000
+```
+
