@@ -1,69 +1,103 @@
-This is a simple app that uses :
+# 📹 Video Consultancy App
 
-HTML,CSS,JS,BOOTSTRAP for the front-end & SQL, PHP for the backend.
+A full-stack web application designed to facilitate seamless video consultations between professionals (e.g., doctors, consultants, tutors) and users. This platform features real-time video calling, appointment scheduling, and secure user management.
 
-HTML,CSS and Bootstrap is used for the basic framework of the page as well as for styling the forms which take in information as well as the tables which display the stored data.
+## 📋 Table of Contents
+- [About](#-about)
+- [Key Features](#-key-features)
+- [Tech Stack](#-tech-stack)
+- [Architecture](#-architecture)
+- [Getting Started](#-getting-started)
+- [Environment Variables](#-environment-variables)
+- [Screenshots](#-screenshots)
+- [Contributing](#-contributing)
+- [Contact](#-contact)
 
-**Tech Stack**
+## 🧐 About
+**Video Consultancy** removes the physical barrier between consultants and clients. Whether for telemedicine, legal advice, or tutoring, this application provides a robust environment for booking slots and conducting secure, high-quality video calls directly in the browser.
 
-Frontend:
+## ✨ Key Features
+* **User Roles:** Separate dashboards for Consultants and Users.
+* **Real-time Video Calling:** High-quality video and audio communication using WebRTC and Socket.io.
+* **Appointment Scheduling:** Users can view available slots and book appointments.
+* **Instant Chat:** Real-time text chat functionality during video calls.
+* **Notifications:** Email or in-app notifications for appointment confirmations.
+* **Responsive Design:** Fully optimized for desktop, tablet, and mobile devices.
 
-	•	HTML5: Structuring the web pages.
- 
-	•	CSS3: Styling forms, tables, and layout.
- 
-	•	Bootstrap: Ensuring a responsive and visually appealing design.
- 
-	•	JavaScript: Adding interactivity and client-side validation.
+## 🛠 Tech Stack
 
-Backend:
+### Frontend
+* **React.js:** Dynamic user interface.
+* **Redux / Context API:** State management.
+* **Material UI / Tailwind CSS:** Styling and UI components.
+* **PeerJS / Simple-peer:** WebRTC wrapper for peer-to-peer video.
 
-	•	PHP: Managing server-side logic, interacting with the database.
- 
-	•	SQL: Storing and retrieving patient and appointment data.
+### Backend
+* **Node.js:** Runtime environment.
+* **Express.js:** RESTful API framework.
+* **Socket.io:** Real-time bidirectional communication.
 
+### Database & Auth
+* **MongoDB:** NoSQL database for storing users and appointments.
+* **JWT (JSON Web Tokens):** Secure authentication.
 
-video-consultancy/
- 
-├── appointment_form.css      # Styles for the appointment booking form
+## 🚀 Getting Started
 
-├── appointment_form.html     # HTML file for booking appointments
+Follow these instructions to set up the project locally on your machine.
 
-├── book_appointment.php      # PHP script to handle appointment booking
+### Prerequisites
+* [Node.js](https://nodejs.org/) (v14 or higher)
+* [MongoDB](https://www.mongodb.com/) (Local or Atlas URL)
+* [Git](https://git-scm.com/)
 
-├── confirm.css               # Styles for confirmation page
+### Installation
 
-├── confirm.php               # Script for confirming appointments
+**1. Clone the repository**
+```bash
+git clone [https://github.com/Yashi5769/video-consultancy.git](https://github.com/Yashi5769/video-consultancy.git)
+cd video-consultancy
+```
 
-├── dataset.txt               # Sample data for testing
+2. **Install Server Dependencies** Navigate to the root (or server) directory and install dependencies.
+   ```bash
+   cd server
+   npm install
+   ```
 
-├── doctor_table.css          # Styles for doctor information tables
+   ---
 
-├── hhh.js                    # JavaScript file for dynamic functionality
+### 2. Environment Variables
 
-├── index.css                 # Styles for the homepage
+```markdown
+## 🔐 Environment Variables
 
-├── index.html                # Homepage of the application
+You need to set up environment variables for the application to run correctly.
 
-├── index.php                 # PHP version of the homepage
+**1. Server-side (`/server/.env`):** Create a `.env` file in the `server` folder and add the following:
 
-├── insert.php                # PHP script to insert data into the database
+```env
+PORT=5000
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret_key
+CLIENT_URL=http://localhost:3000
+```
 
-├── patient_form.css          # Styles for patient forms
+### 3. Running the App
 
-├── patient_info.html         # Displays patient information
+```markdown
+## 🏃‍♂️ Running the App
 
-├── patient_table.css         # Styles for patient tables
+1. **Start the Backend Server**
+   ```bash
+   cd server
+   npm start
+   # Server runs on http://localhost:5000
+   ```
+   ### 4. Screenshots Section (Using a Table)
 
-└── README.md                 # Project documentation
+```markdown
+## 📸 Screenshots
 
-
- Prerequisites
- 
-	•	Web Server
- 
-	•	PHP 7.4+ installed
- 
-	•	MySQL or MariaDB for database management
- 
-	•	A browser for accessing the web interface
+| Landing Page | Video Call Interface |
+|:---:|:---:|
+| ![Landing Page](PLACEHOLDER_URL_HERE) | ![Video Call Interface](PLACEHOLDER_URL_HERE) |
